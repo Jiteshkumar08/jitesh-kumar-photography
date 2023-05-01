@@ -4,7 +4,7 @@ import React from 'react'
 const SocialIcons = () => {
     return (
         <>
-            <a href={userData.socialLinks[0].url} x>
+            <a href={userData.socialLinks[0].url}>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"

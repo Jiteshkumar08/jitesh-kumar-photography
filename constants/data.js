@@ -1,17 +1,35 @@
 const userData = {
-  githubUsername: "manuarora700",
+  githubUsername: "jiteshkumar08",
   behanceUsername: "jiteshkumar30",
   name: "Jitesh Kumar",
-  designation: "Photographer and Video Editor",
-  profiles:["Photographer.", "Designer.", "Explorer.", "Freelancer."],
+  designation: "Photographer and Film-maker",
+  profiles: ["Photographer.", "Designer.", "Explorer.", "Freelancer."],
   avatarUrl: "/avatar.png",
-  email: "jiteshkumar30@gmail.com",
+  email: "jitesh.kumar320@gmail.com",
   phone: "+91 7982851234",
   address: "Delhi, India.",
+  tools: [
+    {
+      name: "Adobe Photoshop",
+      imageUrl: "https://w7.pngwing.com/pngs/587/253/png-transparent-adobe-photoshop-hd-logo-thumbnail.png"
+    },
+    {
+      name: "Premier Pro",
+      imageUrl: "https://w7.pngwing.com/pngs/942/865/png-transparent-adobe-premiere-pro-cc-14-3-hd-logo-thumbnail.png"
+    },
+    {
+      name: "Lightroom",
+      imageUrl: "https://w7.pngwing.com/pngs/671/312/png-transparent-lightroom-cc-hd-logo-thumbnail.png"
+    },
+    {
+      name: "DaVinci Resolve",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DaVinci_Resolve_17_logo.svg/1200px-DaVinci_Resolve_17_logo.svg.png"
+    }
+  ],
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
+      title: "Cuisine",
+      link: "https://www.behance.net/gallery/159852003/Food-Photography",
       imgUrl: "/tmk.jpg",
     },
     {
@@ -50,7 +68,7 @@ const userData = {
       imgUrl: "/devmedium.png",
     },
   ],
-  
+
   about: {
     title:
       "I'm a software developer that loves building products and web applications that impact millions of lives",
@@ -59,33 +77,40 @@ const userData = {
       `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
       `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
     ],
-    currentProject: "Tailwind Master Kit",
+    currentProject: "Women Empowerment-Narrative Photography",
     currentProjectUrl: "https://tailwindmasterkit.com",
   },
   experience: [
     {
       title: "Co-Founder and Designer",
       company: "KunjiOfSuccess",
-      year: "2022",
+      year: "2023",
       companyLink: "https://kunjiofsuccess.web.app",
       desc: "A full service digital marketing agency with highly creative and passionate experts for building relationship between Brands & Customers through the combination of technology and communication. Bring your marketing challenges and we will track your success. We are here to build a strong offline and online presence of your Businesss.",
     },
     {
-      title: "Graduation/Diploma",
+      title: "Diploma in Photography and Film-making",
       company: "Delhi College of Photography",
       year: "2022",
       companyLink: "https://www.dcop.in/",
-      desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
+      desc: "Worked on various industry ready projects related to Food, Street, Fashion, Bevereges, Products and etc.",
     },
     {
-      title: "Assistant Counsellor",
-      company: "British Council",
+      title: "Still Photographer",
+      company: "Eleven Productions",
       year: "2018",
-      companyLink: "https://www.britishcouncil.in/",
-      desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
+      companyLink: "https://www.elevenproductions.com/",
+      desc: "As a still photographer at Eleven Productions, I captured stunning images that brought life to the production sets. My attention to detail and ability to anticipate moments allowed me to produce high-quality photographs that perfectly captured the essence of the productions. It was an honor to be part of such a talented team.",
+    },
+    {
+      title: "Freelancer",
+      company: "Self-Employed",
+      year: "2016",
+      companyLink: "https://jiteshkumarphotography.vercel.app/",
+      desc: "As a freelance photographer, I have had the opportunity to work on a variety of projects including wedding and model photoshoots. Being a freelancer has allowed me to showcase my creativity and work on projects that align with my interests. I enjoy the flexibility and freedom that comes with being my own boss and managing my own schedule.",
     },
   ],
-  resumeUrl: "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+  resumeUrl: "",
 
   socialLinks: [
     { name: "Instagram", url: "https://www.instagram.com/camerawalahun/" },
