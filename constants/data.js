@@ -1,11 +1,13 @@
 const userData = {
   githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
+  behanceUsername: "jiteshkumar30",
+  name: "Jitesh Kumar",
+  designation: "Photographer and Video Editor",
+  profiles:["Photographer.", "Designer.", "Explorer.", "Freelancer."],
   avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  email: "jiteshkumar30@gmail.com",
+  phone: "+91 7982851234",
+  address: "Delhi, India.",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -48,6 +50,7 @@ const userData = {
       imgUrl: "/devmedium.png",
     },
   ],
+  
   about: {
     title:
       "I'm a software developer that loves building products and web applications that impact millions of lives",
@@ -61,58 +64,37 @@ const userData = {
   },
   experience: [
     {
-      title: "Software Developer",
-      company: "mroads",
-      year: "2021",
-      companyLink: "https://mroads.com",
-      desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
+      title: "Co-Founder and Designer",
+      company: "KunjiOfSuccess",
+      year: "2022",
+      companyLink: "https://kunjiofsuccess.web.app",
+      desc: "A full service digital marketing agency with highly creative and passionate experts for building relationship between Brands & Customers through the combination of technology and communication. Bring your marketing challenges and we will track your success. We are here to build a strong offline and online presence of your Businesss.",
     },
     {
-      title: "Founder and Developer",
-      company: "TailwindMasterKit",
-      year: "2021",
-      companyLink: "https://tailwindmasterkit.com",
-      desc: "Developed a marketplace for tailwind web components (React, HTML and Angular) and templates.",
-    },
-    {
-      title: "Founder and Developer",
-      company: "Algochurn",
-      year: "2021",
-      companyLink: "https://algochurn.com",
-      desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
-    },
-    {
-      title: "Internship",
-      company: "Intel Corporation",
-      year: "2019",
-      companyLink: "https://intel.com",
-      desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.",
-    },
-    {
-      title: "Graduation",
-      company: "UPES, Dehradun.",
-      year: "2019",
-      companyLink: "https://upes.co.in",
+      title: "Graduation/Diploma",
+      company: "Delhi College of Photography",
+      year: "2022",
+      companyLink: "https://www.dcop.in/",
       desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
     },
     {
-      title: "High School",
-      company: "Delhi Public School, Jaipur.",
-      year: "2015",
-      companyLink: "https://upes.co.in",
+      title: "Assistant Counsellor",
+      company: "British Council",
+      year: "2018",
+      companyLink: "https://www.britishcouncil.in/",
       desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
     },
   ],
-  resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
-  socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
-    peerlist: "https://peerlist.io/manuarora",
-  },
+  resumeUrl: "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+
+  socialLinks: [
+    { name: "Instagram", url: "https://www.instagram.com/camerawalahun/" },
+    { name: "GitHub", url: "https://www.instagram.com/jiteshkumar08/" },
+    { name: "Behance", url: "https://www.behance.net/jiteshkumar30" },
+    // { name: "Twitter", url: "" },
+    // { name: "LinkedIn", url: "" },
+    // { name: "Facebook", url: "" },
+  ]
 };
 
 export default userData;
