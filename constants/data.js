@@ -80,14 +80,14 @@ const userData = {
 
   about: {
     title:
-      "Freelance photographer and filmmaker based in New Delhi, specialized in varios fields like fashion, product, food & video.",
+      "I'm a photographer with a gift for capturing extraordinary moments through a unique perspective. With a passion for bringing still images to life, I strive to deliver exceptional results that tell a story and evoke emotion.",
     description: [
       `Hi there, I am Jitesh Kumar, a freelance photographer and filmmaker based in the bustling city of New Delhi. I have been passionate about photography and filmmaking from a young age, and have since specialized in fashion photography, product shoots, food photography, event coverage, and video shooting.`,
       `I have years of experience in the industry and have honed my skills to deliver exceptional results for my clients. I am dedicated to capturing stunning visuals and attention to detail in all my work. My unique approach to my craft allows me to create images and videos that truly capture the essence of my subjects.`,
       `Whether it is a high-end fashion shoot, a corporate event, or a culinary masterpiece, I take great pride in delivering exceptional results that exceed my client's expectations. I am always up for new challenges and am excited to collaborate with you on your next project.`,
     ],
     currentProject: `"The Empowering Narratives of Women Through Photography"`,
-    currentProjectUrl: "https://docs.google.com/presentation/d/1vpIMItdIU7VNd6Q2IGwG-aZdBfOc4XuQiH108p6ZAlI/edit?usp=sharing",
+    currentProjectUrl: "https://docs.google.com/presentation/d/e/2PACX-1vT2D1uPL84Ri17BRajqnjxCgHBtC8UUFkUBewwCvltC37jObYNPN8BkfFZnNL1frABWfIGGl97FtLR-/pub?start=false&loop=false&delayms=3000",
   },
   experience: [
     {
