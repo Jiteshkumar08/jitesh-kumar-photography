@@ -11,36 +11,55 @@ const userData = {
   tools: [
     {
       name: "Adobe Photoshop",
-      imageUrl: "https://w7.pngwing.com/pngs/587/253/png-transparent-adobe-photoshop-hd-logo-thumbnail.png"
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/2101px-Adobe_Photoshop_CC_icon.svg.png"
     },
     {
       name: "Premier Pro",
-      imageUrl: "https://w7.pngwing.com/pngs/942/865/png-transparent-adobe-premiere-pro-cc-14-3-hd-logo-thumbnail.png"
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/2101px-Adobe_Premiere_Pro_CC_icon.svg.png"
     },
     {
       name: "Lightroom",
-      imageUrl: "https://w7.pngwing.com/pngs/671/312/png-transparent-lightroom-cc-hd-logo-thumbnail.png"
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/1200px-Adobe_Photoshop_Lightroom_CC_logo.svg.png"
     },
     {
       name: "DaVinci Resolve",
       imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DaVinci_Resolve_17_logo.svg/1200px-DaVinci_Resolve_17_logo.svg.png"
     }
   ],
-  projects: [
+  favouriteProjects:[
     {
-      title: "Cuisine",
+      title: "Merlot 2020",
       link: "https://www.behance.net/gallery/159852003/Food-Photography",
-      imgUrl: "/tmk.jpg",
+      imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/bfefe7159857839.63a75a55cb2a9.jpeg",
     },
-    {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
-    },
+    
     {
       title: "Portfolio",
       link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/2902da159857329.63a7564511467.jpeg",
+    },
+    {
+      title: "Product",
+      link: "https://placeholdertech.in",
+      imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/3f31fe159856589.63cc260dc3766.jpeg",
+    }
+  ],
+  projects: [
+    {
+      title: "Merlot 2020",
+      link: "https://www.behance.net/gallery/159852003/Food-Photography",
+      imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/bfefe7159857839.63a75a55cb2a9.jpeg",
+    },
+    
+    {
+      title: "Portfolio",
+      link: "https://manuarora.in",
+      imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/2902da159857329.63a7564511467.jpeg",
+    },
+    {
+      title: "Product",
+      link: "https://placeholdertech.in",
+      imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/3f31fe159856589.63cc260dc3766.jpeg",
     },
     {
       title: "CovidRescue",
@@ -57,28 +76,18 @@ const userData = {
       link: "https://play.placeholdertech.in",
       imgUrl: "/playground.png",
     },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
-    },
   ],
 
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "Freelance photographer and filmmaker based in New Delhi, specialized in varios fields like fashion, product, food & video.",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `Hi there, I am Jitesh Kumar, a freelance photographer and filmmaker based in the bustling city of New Delhi. I have been passionate about photography and filmmaking from a young age, and have since specialized in fashion photography, product shoots, food photography, event coverage, and video shooting.`,
+      `I have years of experience in the industry and have honed my skills to deliver exceptional results for my clients. I am dedicated to capturing stunning visuals and attention to detail in all my work. My unique approach to my craft allows me to create images and videos that truly capture the essence of my subjects.`,
+      `Whether it is a high-end fashion shoot, a corporate event, or a culinary masterpiece, I take great pride in delivering exceptional results that exceed my client's expectations. I am always up for new challenges and am excited to collaborate with you on your next project.`,
     ],
-    currentProject: "Women Empowerment-Narrative Photography",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProject: `"The Empowering Narratives of Women Through Photography"`,
+    currentProjectUrl: "https://docs.google.com/presentation/d/1vpIMItdIU7VNd6Q2IGwG-aZdBfOc4XuQiH108p6ZAlI/edit?usp=sharing",
   },
   experience: [
     {
@@ -110,7 +119,7 @@ const userData = {
       desc: "As a freelance photographer, I have had the opportunity to work on a variety of projects including wedding and model photoshoots. Being a freelancer has allowed me to showcase my creativity and work on projects that align with my interests. I enjoy the flexibility and freedom that comes with being my own boss and managing my own schedule.",
     },
   ],
-  resumeUrl: "",
+  resumeUrl: "/resume.pdf",
 
   socialLinks: [
     { name: "Instagram", url: "https://www.instagram.com/camerawalahun/" },
