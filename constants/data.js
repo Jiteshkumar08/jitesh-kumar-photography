@@ -1,5 +1,6 @@
 const userData = {
   githubUsername: "jiteshkumar08",
+  instragramUsername:'camerawalahun',
   behanceUsername: "jiteshkumar30",
   name: "Jitesh Kumar",
   designation: "Photographer and Film-maker",
@@ -123,7 +124,7 @@ const userData = {
 
   socialLinks: [
     { name: "Instagram", url: "https://www.instagram.com/camerawalahun/" },
-    { name: "GitHub", url: "https://www.instagram.com/jiteshkumar08/" },
+    { name: "GitHub", url: "https://www.github.com/jiteshkumar08/" },
     { name: "Behance", url: "https://www.behance.net/jiteshkumar30" },
     // { name: "Twitter", url: "" },
     // { name: "LinkedIn", url: "" },
