@@ -1,10 +1,14 @@
 import userData from '@constants/data'
 import React from 'react'
 
-const SocialIcons = () => {
+const SocialIcons = ({ isContact = false }) => {
+    const linkClass = isContact ? "h-10 w-10 rounded-full hover:bg-blue-500 flex items-center text-white justify-center cursor-pointer" : "text-base font-normal text-gray-600 dark:text-gray-300"
+
     return (
         <>
-            <a href={userData.socialLinks[0].url}>
+            <a href={userData.socialLinks[0].url}
+                className={linkClass}
+            >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -18,7 +22,7 @@ const SocialIcons = () => {
             </a>
             <a
                 href={userData.socialLinks[1].url}
-                className="text-base font-normal text-gray-600 dark:text-gray-300"
+                className={linkClass}
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +37,7 @@ const SocialIcons = () => {
             </a>
             <a
                 href={userData.socialLinks[2].url}
-                className="text-base font-normal text-gray-600 dark:text-gray-300"
+                className={linkClass}
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
