@@ -1,6 +1,6 @@
 const userData = {
   githubUsername: "jiteshkumar08",
-  instragramUsername:'camerawalahun',
+  instragramUsername: 'camerawalahun',
   behanceUsername: "jiteshkumar30",
   name: "Jitesh Kumar",
   designation: "Photographer and Film-maker",
@@ -27,13 +27,13 @@ const userData = {
       imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DaVinci_Resolve_17_logo.svg/1200px-DaVinci_Resolve_17_logo.svg.png"
     }
   ],
-  favouriteProjects:[
+  favouriteProjects: [
     {
       title: "Merlot 2020",
       link: "https://www.behance.net/gallery/159852003/Food-Photography",
       imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/bfefe7159857839.63a75a55cb2a9.jpeg",
     },
-    
+
     {
       title: "Portfolio",
       link: "https://manuarora.in",
@@ -51,7 +51,7 @@ const userData = {
       link: "https://www.behance.net/gallery/159852003/Food-Photography",
       imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/bfefe7159857839.63a75a55cb2a9.jpeg",
     },
-    
+
     {
       title: "Portfolio",
       link: "https://manuarora.in",
@@ -129,7 +129,13 @@ const userData = {
     // { name: "Twitter", url: "" },
     // { name: "LinkedIn", url: "" },
     // { name: "Facebook", url: "" },
-  ]
+  ],
+  demoInstagramPosts: [{
+    name: 'Demo Post 1',
+    description: "Some random post",
+    imgURL: "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/be34e30bf9efed3ff262129a341e58dc32bdf04576483436fcc98a03925abd2b._RI_V_TTW_.jpg",
+    clone_url: "https://frontdevpankaj.web.app"
+  }]
 };
 
 export default userData;

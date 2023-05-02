@@ -2,10 +2,10 @@ import ContainerBlock from "../components/ContainerBlock";
 import FavouriteProjects from "../components/FavouriteProjects";
 import LatestCode from "../components/LatestCode";
 import Hero from "../components/Hero";
-import getLatestRepos from "@lib/getLatestRepos";
-import userData from "@constants/data";
+import getLatestPosts from "@lib/getLatestPosts";
+import { isInstramPostEnabled } from "featureToggles/feature_flag";
 
-export default function Home({ repositories }) {
+export default function Home({ posts }) {
   return (
     <ContainerBlock
       title="Jitesh Kumar - Photographer, Designer, Explorer, Freelancer"
@@ -13,21 +13,20 @@ export default function Home({ repositories }) {
     >
       <Hero />
       <FavouriteProjects />
-      {/* <LatestCode repositories={repositories} /> */}
+      {isInstramPostEnabled && <LatestCode posts={posts} />}
     </ContainerBlock>
   );
 }
 
-// export const getServerSideProps = async () => {
-//   console.log(process.env.GITHUB_AUTH_TOKEN);
-//   let token = process.env.GITHUB_AUTH_TOKEN;
+export const getServerSideProps = async () => {
+  console.log("something",process.env.INSTAGRAM_AUTH_TOKEN);
+  const token = process.env.INSTAGRAM_AUTH_TOKEN;
+  const posts = await getLatestPosts(token);
+  // // console.log("REPOSITORIES", repositories);
 
-//   const repositories = await getLatestRepos(userData, token);
-//   // console.log("REPOSITORIES", repositories);
-
-//   return {
-//     props: {
-//       repositories,
-//     },
-//   };
-// };
+  return {
+    props: {
+      posts,
+    },
+  };
+};
