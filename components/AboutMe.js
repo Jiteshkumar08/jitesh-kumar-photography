@@ -17,10 +17,11 @@ export default function AboutMe() {
           >
             {userData.about.title}. Currently working on{" "}
             <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
+              className="bg-red-500 rounded-md px-2 py-1 text-white hover:underline hover:underline-offset-4"
+              target="_blank"
               href={userData.about.currentProjectUrl}
             >
-              {userData.about.currentProject} ✈️
+              {userData.about.currentProject}
             </a>
           </p>
         </div>
@@ -53,8 +54,8 @@ export default function AboutMe() {
                 check my{" "}
                 <a
                   href={userData.resumeUrl}
-                  target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  download
                 >
                   CV
                 </a>{" "}
@@ -91,7 +92,7 @@ export default function AboutMe() {
             ))}
 
             <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
-              Tech Stack
+              Tools I've Worked On 👇
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               {
@@ -99,7 +100,7 @@ export default function AboutMe() {
                   key={index}
                   alt={tool.name}
                   src={tool.imageUrl}
-                  className="mx-4 my-4 h-20 w-20"
+                  className="mx-4 my-4 h-20 w-20 dark:border-"
                 />)
               }
             </div>

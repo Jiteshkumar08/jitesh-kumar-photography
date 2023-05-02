@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import userData from "@constants/data";
 
 export default function FavouriteProjects() {
   return (
@@ -33,20 +34,20 @@ export default function FavouriteProjects() {
         </header>
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
+        <div className="grid md:grid-cols-1 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://tailwindmasterkit.com"
-            className="w-full block col-span-3 shadow-2xl"
+            href={userData.favouriteProjects[0].link}
+            className="w-full block col-span-2  shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/tmk.jpg"
+                src={userData.favouriteProjects[0].imgUrl}
                 alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
+                className="transform md:hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Tailwind Master Kit
+                {userData.favouriteProjects[0].title}
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -55,18 +56,18 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://placeholdertech.in"
-            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
+            href={userData.favouriteProjects[1].link}
+            className="w-full block col-span-2  sm:col-span-2 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/placeholdertech.png"
+                src={userData.favouriteProjects[1].imgUrl}
                 alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
+                className="transform md:hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                PlaceholderTech
+              {userData.favouriteProjects[1].title}
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
@@ -75,18 +76,18 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://manuarora.in"
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
+            href={userData.favouriteProjects[2].link}
+            className="w-full block col-span-2 sm:col-span-1  object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/portfolio.png"
+                src={userData.favouriteProjects[2].imgUrl}
                 alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+                className="transform md:hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl h-4/6"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Portfolio
+              {userData.favouriteProjects[2].title}
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03
