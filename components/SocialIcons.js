@@ -8,6 +8,7 @@ const SocialIcons = ({ isContact = false }) => {
         <>
             <a href={userData.socialLinks[0].url}
                 className={linkClass}
+                target="_blank"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -23,6 +24,7 @@ const SocialIcons = ({ isContact = false }) => {
             <a
                 href={userData.socialLinks[1].url}
                 className={linkClass}
+                target="_blank"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -38,6 +40,7 @@ const SocialIcons = ({ isContact = false }) => {
             <a
                 href={userData.socialLinks[2].url}
                 className={linkClass}
+                target="_blank"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
