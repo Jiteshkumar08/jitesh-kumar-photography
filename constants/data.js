@@ -30,18 +30,18 @@ const userData = {
   favouriteProjects: [
     {
       title: "Merlot 2020",
-      link: "https://www.behance.net/gallery/159852003/Food-Photography",
+      link: "https://www.behance.net/gallery/159857839/Beverages",
       imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/bfefe7159857839.63a75a55cb2a9.jpeg",
     },
 
     {
       title: "Portfolio",
-      link: "https://manuarora.in",
+      link: "https://www.behance.net/gallery/159857329/Fashion-Photography",
       imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/2902da159857329.63a7564511467.jpeg",
     },
     {
       title: "Product",
-      link: "https://placeholdertech.in",
+      link: "https://www.behance.net/gallery/159856589/Product-Photography",
       imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/3f31fe159856589.63cc260dc3766.jpeg",
     }
   ],
