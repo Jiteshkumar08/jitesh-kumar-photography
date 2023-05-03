@@ -48,34 +48,34 @@ const userData = {
   projects: [
     {
       title: "Merlot 2020",
-      link: "https://www.behance.net/gallery/159852003/Food-Photography",
+      link: "https://www.behance.net/gallery/159857839/Beverages",
       imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/bfefe7159857839.63a75a55cb2a9.jpeg",
     },
 
     {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/2902da159857329.63a7564511467.jpeg",
+      title: "Fashion Editorial",
+      link: "https://www.behance.net/gallery/159857329/Fashion-Photography",
+      imgUrl: "/project2.png",
     },
     {
-      title: "Product",
-      link: "https://placeholdertech.in",
-      imgUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/3f31fe159856589.63cc260dc3766.jpeg",
+      title: "Advertising",
+      link: "https://www.behance.net/gallery/159856589/Product-Photography",
+      imgUrl: "/project3.png",
     },
     {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
+      title: "Commercial",
+      link: "https://www.behance.net/gallery/159857605/Sneakers-Photography",
+      imgUrl: "/project4.png",
     },
     {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
+      title: "Gourmet",
+      link: "https://www.behance.net/gallery/159852003/Food-Photography",
+      imgUrl: "/project5.png",
     },
     {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
+      title: "jewellery",
+      link: "https://www.behance.net/gallery/159856743/Jewellery-Photography",
+      imgUrl: "/project6.png",
     },
   ],
 
