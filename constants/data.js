@@ -4,7 +4,7 @@ const userData = {
   behanceUsername: "jiteshkumar30",
   name: "Jitesh Kumar",
   designation: "Photographer and Film-maker",
-  profiles: ["Photographer.", "Designer.", "Explorer.", "Freelancer."],
+  profiles: ["Photographer.", "Designer.", "Social media marketer.", "Freelancer."],
   avatarUrl: "/avatar.png",
   email: "jitesh.kumar320@gmail.com",
   phone: "+91 7982851234",
